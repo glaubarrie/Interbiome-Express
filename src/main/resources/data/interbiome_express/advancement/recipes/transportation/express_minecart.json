@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_iron_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": { "items": [ { "items": "minecraft:iron_block" } ] }
+		},
+		"has_minecart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": { "items": [ { "items": "minecraft:minecart" } ] }
+		}
+	},
+	"requirements": [ [ "has_iron_block", "has_minecart" ] ],
+	"rewards": { "recipes": [ "interbiome_express:express_minecart" ] }
+}

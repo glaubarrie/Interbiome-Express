@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "interbiome_express",
+	"version": "${version}",
+	"name": "Interbiome-Express",
+	"description": "Adds the Express Minecart: a fuel-driven minecart that ignores powered rails.",
+	"authors": ["knoppid"],
+	"license": "GPL-3.0-only",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.knoppid.ibe.ExpressMod"],
+		"client": ["dev.knoppid.ibe.ExpressClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

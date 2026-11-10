@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:iron_block"
+	},
+	"pattern": [
+		"# #",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:minecart",
+		"count": 1,
+		"components": {
+			"minecraft:custom_data": {
+				"ibe": true
+			},
+			"minecraft:item_name": "Express-Minecart"
+		}
+	}
+}
